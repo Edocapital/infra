@@ -1,0 +1,14 @@
+[package]
+name = "bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Use workspace dependencies
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+# Bot can depend on stream if needed
+# stream = { path = "../stream" }
+

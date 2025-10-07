@@ -1,0 +1,15 @@
+[package]
+name = "stream"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Use workspace dependencies
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+dotenv = { workspace = true }
+
+# Solana streaming
+solana-streamer-sdk = "0.4.12"
+
